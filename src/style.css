@@ -1,0 +1,58 @@
+@import "styles/home.css";
+@import "styles/nav.css";
+@import "styles/about.css";
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    background: rgb(238, 238, 238);
+    scroll-behavior: smooth;
+}
+
+.section
+{
+    height: 100vh;
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* section:nth-child(odd)
+{
+    justify-content: flex-end;
+} */
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.titre {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 820px) {
+    .titre {
+        font-size: 1.5em;
+    }
+    
+    .text {
+        font-size: 0.7em;
+    }
+}
