@@ -1,6 +1,8 @@
 @import "styles/home.css";
 @import "styles/nav.css";
 @import "styles/about.css";
+@import "styles/experiences.css";
+@import "styles/contact.css";
 
 *
 {
@@ -10,8 +12,9 @@
 
 html
 {
-    background: rgb(238, 238, 238);
+    background: rgb(247, 246, 246);
     scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .section
@@ -35,7 +38,7 @@ html
     outline: none;
 }
 
-.titre {
+.title {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5vw;
     font-weight: 700;
