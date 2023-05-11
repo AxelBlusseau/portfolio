@@ -75,7 +75,8 @@
 .about__btn {
     font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255);
-    font-size: 1vw;
+    font-size: 0.9em;
+    font-weight: 700;
     padding: 20px;
     background-image: linear-gradient(to right, #5c0fc7, #432c93, #664ed2, #a49af5);
     box-shadow: 0 4px 20px 0 rgba(69, 9, 143, 0.384);

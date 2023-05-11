@@ -22,6 +22,8 @@
 
 .contact__btn {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.9em;
     color: rgb(255, 255, 255);
     padding: 20px;
     background-image: linear-gradient(to right, #c713e2, #ff9020, #fb9a3f, #d24ed0);
