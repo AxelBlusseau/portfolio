@@ -11,7 +11,7 @@
 }
 
 .contact__body {
-    margin-top: 40vh;
+    margin-top: 35vh;
     margin-left: 200px;
     margin-right: 200px;
 }
@@ -47,7 +47,6 @@
 @media screen and (max-width: 820px) {
 
     .contact__body {
-        margin-top: 40vh;
         margin-left: 0;
         margin-right: 0;
     }

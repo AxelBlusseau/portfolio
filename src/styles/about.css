@@ -203,7 +203,7 @@
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 540px) {
     .about__hero {
         display: none;
     }
