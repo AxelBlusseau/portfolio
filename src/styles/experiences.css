@@ -120,16 +120,16 @@
 }
 
 .box-java {
-    top: 50px;
-    right: 200px;
+    top: 0%;
+    left: 0%;
     rotate: -20deg;
     background-color: rgba(252, 183, 45, 0.6);
 }
 
 .box-python {
-    top: 100px;
-    left: 20px;
-    rotate: 10deg;
+    top: 60%;
+    left: -15%;
+    rotate: -10deg;
     background-color: rgba(131, 193, 245, 0.6);
 }
 
@@ -148,8 +148,8 @@
 }
 
 .box-pg-iris {
-    top: 600px;
-    right: 200px;
+    top: 80;
+    right: 50%;
     rotate: 20deg;
     background-color: rgba(255, 179, 0, 0.6);
 }
@@ -160,12 +160,12 @@
 }
 
 .box-iris:hover .box-java {
-    transform: translateX(1px);
+    transform: translateX(-60px);
     opacity: 1;
 }
 
 .box-iris:hover .box-python {
-    transform: translateY(250px);
+    transform: translateY(-30px);
     opacity: 1;
 }
 
@@ -180,78 +180,78 @@
 }
 
 .box-iris:hover .box-pg-iris {
-    transform: translateY(40px);
+    transform: translateY(-20px);
     opacity: 1;
 }
 
 /* BOX SOLO */
 
 .box-nuxt {
-    top: 200px;
-    right: 20px;
+    top: 0%;
+    right: 5%;
     rotate: 30deg;
     background-color: rgb(142, 95, 199, 0.6);
 }
 
 .box-nest-solo {
-    top: 100px;
-    right: 200px;
+    top: 50%;
+    right: 10%;
     rotate: -20deg;
     background-color: rgba(252, 183, 45, 0.6);
 }
 
 .box-redis {
-    top: 100px;
-    left: 20px;
+    top: 85%;
+    left: -8%;
     rotate: 10deg;
     background-color: rgba(131, 193, 245, 0.6);
 }
 
 .box-pg-solo {
-    top: 100px;
-    right: 15px;
+    top: 85%;
+    right: 5%;
     rotate: -10deg;
     background-color: rgba(248, 145, 1, 0.6);
 }
 
 .box-solo:hover .box-nuxt {
-    transform: translateX(80px);
+    transform: translateX(5px);
     opacity: 1;
 }
 
 .box-solo:hover .box-nest-solo {
-    transform: translateX(100px);
+    transform: translateX(80px);
     opacity: 1;
 }
 
 .box-solo:hover .box-redis {
-    transform: translateY(100px);
+    transform: translateX(1px);
     opacity: 1;
 }
 
 .box-solo:hover .box-pg-solo {
-    transform: translateY(40px);
+    transform: translateX(50px);
     opacity: 1;
 }
 
 /* BOX GRAD */
 
 .box-k8s {
-    top: 20px;
-    right: 150px;
+    top: 90%;
+    left: 0%;
     rotate: 30deg;
     background-color: rgb(142, 95, 199, 0.6);
 }
 
 .box-nest-grad {
-    top: 100px;
-    right: 200px;
+    top: 10%;
+    right: 20%;
     rotate: -20deg;
     background-color: rgba(252, 183, 45, 0.6);
 }
 
 .box-vuejs-grad {
-    top: 100px;
+    top: 40%;
     left: 150px;
     rotate: 10deg;
     background-color: rgba(131, 193, 245, 0.6);
@@ -265,7 +265,7 @@
 }
 
 .box-grad:hover .box-k8s {
-    transform: translateY(300px);
+    transform: translateX(-20px);
     opacity: 1;
 }
 
