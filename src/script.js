@@ -14,7 +14,7 @@ const scene = new THREE.Scene()
  * Spheres Background
  */
 const textureLoader = new THREE.TextureLoader()
-const matcapTexture = textureLoader.load('/textures/matcaps/18.png')
+const matcapTexture = textureLoader.load('/textures/matcaps/20.png')
 
 const material = new THREE.MeshMatcapMaterial({ matcap: matcapTexture })
 const ballGeometry = new THREE.SphereGeometry(15, 32, 50)

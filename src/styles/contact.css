@@ -1,10 +1,19 @@
+.vanta {
+    /* Put the vanta background behind the section */
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
 #contact {
     margin-top: 100px;
     height: 100vh;
-    background: linear-gradient(326deg, rgba(88,0,147,1) 0%, rgba(106,29,253,1) 0%, rgba(255,149,0,1) 100%);
-    position: relative;
     color: white;
     text-align: center;
+    position: relative;
+    backdrop-filter: blur(5px); /* It make the bubbles disappear */
+
 
     display: flex;
     flex-direction: column;
@@ -13,8 +22,8 @@
 
 .contact__body {
     margin-top: 35vh;
-    margin-left: 200px;
-    margin-right: 200px;
+    padding: 0 10% 0 10%;
+
 }
 
 .contact__body--text {
@@ -27,8 +36,8 @@
     font-size: 0.9em;
     color: rgb(255, 255, 255);
     padding: 20px;
-    background-image: linear-gradient(to right, #c713e2, #ff9020, #fb9a3f, #d24ed0);
-    box-shadow: 0 4px 20px 0 rgba(69, 9, 143, 0.384);
+    background-image: linear-gradient(to right, #498EA0, #30618E, #498EA0, #AAC7CC);
+    box-shadow: 0 0 15px #aac7cc99;
     cursor: pointer;
     border: none;
     background-size: 300% 100%;
@@ -53,4 +62,3 @@
     }
 
 }
-

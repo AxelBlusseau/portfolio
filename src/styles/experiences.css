@@ -24,7 +24,8 @@
 
 .exp__card {
     position: relative;
-    background-color: white;
+    backdrop-filter: blur(14px);
+    background-color: rgba(255, 255, 255, 0.05);
     border-radius: 30px;
     padding: 30px;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
@@ -42,7 +43,7 @@
 }
 
 .exp__subtitle {
-    color: rgb(255, 174, 0);
+    color: #498EA0;
     margin: 15px 0 15px 0;
     font-weight: 600;
 }
@@ -59,7 +60,7 @@
 }
 
 .emphasis {
-    background: -webkit-linear-gradient(315deg,#a542d3 25%,#e5a715);
+    background: -webkit-linear-gradient(315deg,#AAC7CC 25%,#498EA0);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -98,7 +99,7 @@
 .box {
     width: 10vh;
     height: 10vh;
-    border-radius: 20px;
+    border-radius: 50px;
 
     display: flex;
     align-items: center;
@@ -106,8 +107,12 @@
 
     position: absolute;
     transform: rotate(120deg);
-    transition: transform 0.5s ease, opacity 0.5s ease;
+    transition: transform 1s ease, opacity 1s ease;
     opacity: 0;
+
+    background-color: #5f959e44;
+
+    box-shadow: 0 0 10px #498EA0;
 }
 
 /* BOX IRIS */
@@ -116,42 +121,36 @@
     top: 50px;
     right: 10px;
     rotate: 30deg;
-    background-color: rgb(142, 95, 199, 0.6);
 }
 
 .box-java {
     top: 0%;
     left: 0%;
     rotate: -20deg;
-    background-color: rgba(252, 183, 45, 0.6);
 }
 
 .box-python {
     top: 60%;
     left: -15%;
     rotate: -10deg;
-    background-color: rgba(131, 193, 245, 0.6);
 }
 
 .box-docker {
     top: 100px;
     right: 15px;
     rotate: -10deg;
-    background-color: rgba(248, 145, 1, 0.6);
 }
 
 .box-jenkins {
     top: 400px;
     right: 50px;
     rotate: -30deg;
-    background-color: rgba(43, 188, 255, 0.6);
 }
 
 .box-pg-iris {
     top: 80;
     right: 50%;
     rotate: 20deg;
-    background-color: rgba(255, 179, 0, 0.6);
 }
 
 .box-iris:hover .box-vuejs-iris {
@@ -190,28 +189,24 @@
     top: 0%;
     right: 5%;
     rotate: 30deg;
-    background-color: rgb(142, 95, 199, 0.6);
 }
 
 .box-nest-solo {
     top: 50%;
     right: 10%;
     rotate: -20deg;
-    background-color: rgba(252, 183, 45, 0.6);
 }
 
 .box-redis {
     top: 85%;
     left: -8%;
     rotate: 10deg;
-    background-color: rgba(131, 193, 245, 0.6);
 }
 
 .box-pg-solo {
     top: 85%;
     right: 5%;
     rotate: -10deg;
-    background-color: rgba(248, 145, 1, 0.6);
 }
 
 .box-solo:hover .box-nuxt {
@@ -240,28 +235,24 @@
     top: 90%;
     left: 0%;
     rotate: 30deg;
-    background-color: rgb(142, 95, 199, 0.6);
 }
 
 .box-nest-grad {
     top: 10%;
     right: 20%;
     rotate: -20deg;
-    background-color: rgba(252, 183, 45, 0.6);
 }
 
 .box-vuejs-grad {
     top: 40%;
     left: 150px;
     rotate: 10deg;
-    background-color: rgba(131, 193, 245, 0.6);
 }
 
 .box-pg-grad {
     top: 125px;
     right: 15px;
     rotate: -10deg;
-    background-color: rgba(248, 145, 1, 0.6);
 }
 
 .box-grad:hover .box-k8s {

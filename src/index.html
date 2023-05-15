@@ -13,25 +13,22 @@
 <body>
 
     <!-- Hey ! If you see that, I wish you an amazing day ! -->
-    <!-- I did that website to try some front end funny designs and to improve my CSS skills  -->
+    <!-- I did that website to try some front end designs and to improve my CSS skills  -->
     <!-- If you have anything to say about it, I would be glad to hear from you :) -->
-    <!-- Did you catch the fly ? -->
 
     <canvas class="webgl"></canvas> <!-- BUBBLE CANVA -->
-
-    <div class="vanta"></div> <!-- FOG BACKGROUND DIV -->
 
     <section class="section">
 
         <!-- NAVBAR -->
         <nav class="nav">
             <div class="logo">
-                <img src="/images/logo.png" />
+                <!-- <img src="/images/logo.png" /> -->
             </div>
             <div class="nav__links">
-                <a href="#about">ABOUT ME</a>
-                <a href="#experiences">EXPERIENCES</a>
-                <a href="#contact">CONTACT</a>
+                <a href="#about">About</a>
+                <a href="#experiences">Experiences</a>
+                <a href="#contact">Contact</a>
             </div>
         </nav>
 
@@ -52,8 +49,8 @@
         <div class="about">
             <div class="about__me">
                 <div class="about__me--card">
-                    <h1><span class="highlight">Welcome to my place !</span></h1>
-                    <p style="font-size: 0.9em;">
+                    <h1><span class="highlight">WELCOME</span> TO MY PLACE !</h1>
+                    <p class="about__me--text">
                         <br />
                         I am a 23 years old Full Stack Developer looking for exciting projects. 
                         <br />
@@ -78,10 +75,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="speechbubbles">
-                    <div class="speechbubble1">&nbsp;</div>
-                    <div class="speechbubble2">&nbsp;</div>
-                </div>
             </div>
             <div class="about__hero">
                 <img src="/images/hero.jpeg" />
@@ -90,7 +83,7 @@
 
     </section>
     <section class="section" id="experiences">
-        <h1><span class="highlight">My experiences</span></h1>
+        <h1><span class="highlight">MY</span> EXPERIENCES</h1>
         <div class="exp__body">
             <div class="exp__card exp__body--left box-iris">
                 <h3>Full-Stack Developer - U Iris</h3>
@@ -171,14 +164,20 @@
             </div>
         </div>
     </section>
-    <section class="section" id="contact">
+
+
+    <section id="contact">
+    <div class="vanta"></div> <!-- FOG BACKGROUND DIV -->
+
         <div class="contact__body">
-            <h1>Contact me !</h1>
+            <h1>Contact <span class="highlight">Me</span> !</h1>
             <p class="contact__body--text">I am actively looking for new work opportunities all over the world. I can move and I'm very motivated ! Do not hesitate to send me a message if my CV meets your expectations.</p>
             <button class="contact__btn" onclick="location.href='mailto: axelbluss@gmail.com'">GET IN TOUCH</button>
         </div>
         <p>Made with 🫧 by Axel BLUSSEAU</p>
     </section>
+
+
 
     <script type="module" src="./script.js"></script>
 </body>
@@ -194,12 +193,12 @@ VANTA.FOG({
   gyroControls: false,
   minHeight: 200.00,
   minWidth: 200.00,
-  highlightColor: 0x3838ed,
-  midtoneColor: 0xe2fceb,
-  lowlightColor: 0xe00ff,
-  baseColor: 0x0,
-  blurFactor: 0.6,
-  zoom: 0.3,
-  speed: 3
+  highlightColor: "#AAC7CC",
+  midtoneColor: "#1F4B6A",
+  lowlightColor: "#1F4B6A",
+  baseColor: "#0a142a",
+  blurFactor: 0.39,
+  speed: 0.4,
+  zoom: 0.10
 })
 </script>

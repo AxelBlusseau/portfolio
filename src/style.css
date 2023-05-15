@@ -12,14 +12,19 @@
 
 html
 {
-    background: rgb(247, 246, 246);
+    background: #0a142a;
     scroll-behavior: smooth;
+    color: white;
     font-family: 'Montserrat', sans-serif;
 }
 
 /* Fix navigation h1 resizing inside sections */
 h1 {
     font-size: 2em;
+}
+
+.highlight {
+    color: #498EA0;
 }
 
 .section

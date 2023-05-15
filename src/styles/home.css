@@ -1,12 +1,3 @@
-.vanta {
-    /* Put the vanta background behind the section */
-
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    z-index: -1;
-}
-
 .home {
     height: 80%;
     width: 100%;
@@ -21,32 +12,29 @@
     text-align: right;
 }
 
-.intro__title {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-}
-
 .intro__title--primary {
-    font-size: 8vw;
+    font-size: 9vw;
     font-weight: 700;
+    color: #AAC7CC;
 }
 
 .intro__title--secondary {
-    font-size: 8vw;
-    font-weight: 500;
+    font-size: 9vw;
+    font-weight: 300;
+    color: #498EA0;
 }
 
 .intro__subtitle {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 5vw;
+    font-size: 6vw;
     font-weight: 700;
-    color: white;
+    color: #AAC7CC;
 }
 
 @media screen and (max-width: 480px) {
     .home {
         justify-content: center;
         align-items: center;
+        margin-top: -5vh;
     }
 
     .intro {
