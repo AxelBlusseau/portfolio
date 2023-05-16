@@ -7,6 +7,31 @@
     justify-content: flex-end;
 }
 
+.glow {
+    content: "";
+    height: 500px;
+    width: 500px;
+    background: linear-gradient(120deg, rgb(176, 244, 240) 50%, rgba(212, 199, 212, 0.996) 100%);
+    position: absolute;
+    box-shadow: 0 0 100px 30px #AAC7CC;
+    top: -250px;
+    left: -250px;
+    border-radius: 50%;
+    transform: translatey(0px);
+	animation: float 10s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
 
 .intro {
     text-align: right;
