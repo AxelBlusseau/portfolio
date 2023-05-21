@@ -115,6 +115,18 @@
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 0 100px 20px #AAC7CC;
+    animation: shadow-pulse 5s infinite ease-in;
+}
+@keyframes shadow-pulse {
+    0% {
+        box-shadow: 0 0 100px 20px #AAC7CC;   
+    }
+    50% {
+        box-shadow: 0 0 100px 40px #AAC7CC;   
+    }
+    100% {
+        box-shadow: 0 0 100px 20px #AAC7CC;   
+    }
 }
 
 .about__hero img {
