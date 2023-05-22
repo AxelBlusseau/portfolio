@@ -42,17 +42,19 @@
     font-size: 9vw;
     font-weight: 700;
     color: #AAC7CC;
+    line-height: 50%;
 }
 
 .intro__title--secondary {
     font-size: 9vw;
-    font-weight: 300;
+    font-weight: 700;
     color: #498EA0;
 }
 
 .intro__subtitle {
+    line-height: 150%;
     font-size: 6vw;
-    font-weight: 700;
+    font-weight: 300;
     color: #AAC7CC;
 }
 
