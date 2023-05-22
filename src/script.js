@@ -1,7 +1,14 @@
 import * as THREE from 'three'
+import { inject } from '@vercel/analytics';
 
 /**
- * Base
+ * VERCEL
+ */
+inject()
+
+
+/**
+ * BUBBLES
  */
 
 // Canvas
